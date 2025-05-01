@@ -1,4 +1,7 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+import { withNetlify } from '@netlify/next';
 
-export default nextConfig;
+const nextConfig = {
+  // any custom config here
+};
+
+export default withNetlify(nextConfig);
