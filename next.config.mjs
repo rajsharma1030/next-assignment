@@ -1,7 +1,6 @@
-import { withNetlify } from '@netlify/next';
+import pkg from '@netlify/next';
+const { withNetlify } = pkg;
 
-const nextConfig = {
-  // any custom config here
-};
-
-export default withNetlify(nextConfig);
+export default withNetlify({
+  // Your configuration options
+});
