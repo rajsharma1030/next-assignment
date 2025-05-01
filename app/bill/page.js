@@ -65,7 +65,7 @@ export default function ReviewBillsPage() {
                 <option>Google</option>
                 <option>Facebook and inst</option>
               </select>
-              <span className="text-sm text-green-600 bg-green-100 rounded px-4 py-1">Quickbook's Data</span>
+              <span className="text-sm text-green-600 bg-green-100 rounded px-4 py-1">Quickbook Data</span>
             </div>
             <div className="flex items-center gap-2">
             <button className="text-sm bg-[#ecebfb] px-4 py-2 rounded text-violet-700 flex items-center gap-2">
@@ -75,8 +75,7 @@ export default function ReviewBillsPage() {
                 
               </button>
               <button className="text-sm bg-[#ecebfb] px-4 py-2 rounded text-violet-700 flex items-center gap-2">
-               
-                Export to Excel
+               Export to Excel
               </button>
               <button className="text-sm bg-[#ecebfb] px-4 py-2 rounded text-violet-700 ">Add Document</button>
               <select className="border rounded px-4 py-2 border-transparent text-sm text-purple-700 bg-[#ecebfb]">
@@ -94,7 +93,7 @@ export default function ReviewBillsPage() {
             </div>
           </div>
 
-          {/* Main Content (Bill List + Invoice) */}
+        
           <div className=" p-8 bg-white">
             <div className='flex item-end justify-end mb-6'>
             <button className='text-white text-sm bg-violet-700 rounded px-4 py-2 '>Add to Expenses Report</button>
