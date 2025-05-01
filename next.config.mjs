@@ -4,4 +4,8 @@ const nextConfig = {
   };
   
   export default nextConfig;
+<<<<<<< HEAD
   
+=======
+  
+>>>>>>> 43d92956cb550fc4fe64ce69dbf456ef9da51172
